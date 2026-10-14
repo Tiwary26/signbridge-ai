@@ -1,20 +1,24 @@
-# Virtual Environment
-backend/venv/
-__pycache__/
-*.py[cod]
-*$py.class
-.pytest_cache/
-
-# Node & Frontend
-frontend/node_modules/
-frontend/dist/
-frontend/.vite/
-
-# Database & Logs
-backend/signbridge.db
+# Logs
+logs
 *.log
-.system_generated/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Environments
-.env
-.env.local
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
